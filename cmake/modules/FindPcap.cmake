@@ -32,6 +32,7 @@ FIND_LIBRARY(PCAP_LIBRARY_PATH
                 /sw/lib/pcap
                 /opt/local/lib
                 /opt/local/lib/pcap
+                /usr/lib/i386-linux-gnu
                 NO_DEFAULT_PATH)
 IF(PCAP_INCLUDE_PATH)
         SET(PCAP_FOUND 1 CACHE STRING "Set to 1 if pcap is found, 0 otherwise")
